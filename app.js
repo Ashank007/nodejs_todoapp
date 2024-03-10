@@ -3,7 +3,7 @@ import userRouter from "./routes/user.js";
 import taskRouter from "./routes/task.js"
 import {config} from "dotenv";
 import cookieParser from 'cookie-parser';
-import {ErrorMiddleWare} from "../middlewares/error.js"
+import {ErrorMiddleWare} from "./middlewares/error.js"
 import cors from "cors";
 
 export const app = express();
